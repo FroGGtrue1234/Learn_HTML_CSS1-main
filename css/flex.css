@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    margin:0%;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+}
+.conteinerFlex{ /*стиль для родительского котнейнера*/
+    /*работа с текстом внутри родительского котнейнера*/
+    text-align: center;
+    font-size: larger;
+    /*работа с родительским котнейнером основные стили*/
+    
+    height: 200px;
+    background-color: brown;
+    
+    display: flex; /*подключение режима flex*/
+    flex-wrap:nowrap; /*стиль отвечающий за автоматический перенос блоков*/
+    flex-direction:row;
+
+     /*выравнивание по горизонту*/
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.conteinerFlexIteam{ /*стиль для дочерних элементов*/
+    height: 80px;
+    width: 80px;
+     /*margin:auto;  автоматические отступы*/
+    background-color: coral;
+    border-radius: 10px;
+}
+
+.conteinerFlexIteamOne{ /*стиль для дочерних элементов*/
+   
+    height:150px ;
+     /*margin:auto;  автоматические отступы*/
+    background-color: rgb(179, 80, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;/*свойство позволяет растягивать */
+    order:1; /*свойство позволяет переставлять*/
+    
+}   
+.childFlexIteamOne{
+    background-color: aqua;
+    width: 300px;
+    border-radius: 10px;
+}
+.childFlexIteamOne h1{
+    display: block;
+    color:white;
+}
