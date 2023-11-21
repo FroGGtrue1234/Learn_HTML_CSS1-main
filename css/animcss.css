@@ -1,0 +1,81 @@
+body{
+    background-color:blueviolet;
+    margin:0px;
+}
+.parent{
+    background-color: cadetblue;
+    height: 500px;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    align-items: center;
+}
+.child{
+width: 30%;
+height: 400px;
+background-color:purple;
+justify-content: space-around;
+align-items: center;
+}
+.childOne{
+    background-color: rgb(114, 219, 114);
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+animation-name: Number1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-out;
+}
+@keyframes Number1 {
+    0%{
+margin-top: 0%;
+    }
+    20%{
+margin-top: 80%;
+    }
+    40%{
+margin-top: 100%;
+    }
+    60%{
+margin-top: 80%;
+    }
+    80%{
+margin-top:100% ;
+    }
+100%{
+    margin-top: 80%;
+}
+}
+.childTwo{
+    background-color: rgb(114, 219, 114);
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+animation-name: Number2;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-out;
+}
+@keyframes Number2 {
+    0%{
+    scale:1;
+        border-radius: 50px;
+            }
+            25%{
+               scale: 2;
+                border-radius: 80px;
+            }
+            50%{
+               scale: 3;
+                border-radius: 100px;
+            }
+            75%{
+               scale:2;
+                border-radius: 50px;
+            }
+            100%{
+               scale:1;
+                border-radius: 50px;
+            }
+}
