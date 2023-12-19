@@ -1,39 +1,48 @@
+.conteiner-mainTwo1{
+  margin-top: 6.5%;
+  margin-right: 3%;
+  display: flex;
+  background-color: rgb(164, 226, 164);
+  height: 500px;
+  width: 300px;
+  border-radius: 15px;
+  flex-direction: column;
+}
+#textOne{
+  text-align: center;
+  margin-left: 80%;
+  font-size: 1.5em;
+  color:white;
+  letter-spacing: 1px;
+  font-family: 'Overpass', sans-serif;
+   }
+#textTwo{
+  color:white;
+  font-family: 'Overpass', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  text-align: center;
+  margin-right:10%;
+}
 body {
    background-color:rgb(149, 149, 229);
    margin: 0px;
 }
-.page{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  flex-wrap: nowrap;
-}
 .conteiner-headerOne{
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 50px;
   flex-direction: row;
   
   background-color: rgb(164, 226, 164);
 }
-.conteiner-headerTwo2{
-  background-color: rgb(114, 219, 114);
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
-}
+
 .conteiner-headerTwo1{
   background-color:rgb(237, 237, 109);
   height: 70px;
   width: 800px;
   border-radius: 15px;
   margin:auto;
-}
-.conteiner-headerTwo{
-  background-color: rgb(114, 219, 114);
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
 }
 main{
   background-color: blue;
@@ -60,19 +69,13 @@ main{
   justify-content: flex-start;
   background-color: rgb(149, 149, 229);
 }
-.conteiner1-mainTwo{
-  margin:auto;
-  height: 500px;
-  width: 700px;
-  border-radius: 15px;
-  background-color: rgb(237, 237, 109);
-}
+
 .conteiner-mainTwo{
   margin:auto;
   display: flex;
   background-color: rgb(164, 226, 164);
-  height: 500px;
-  width: 350px;
+  height: 350px;
+  width: 200px;
   border-radius: 15px;
   flex-direction: column;
  
@@ -88,19 +91,8 @@ footer{
   background-color: blueviolet;
   margin-top: auto;
 }
-.conteiner-footerOne{
-  display: flex;
-  width: 100%;
-  height: 100px;
-  min-height: 100%;
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color: rgb(164, 226, 164);
-}
-.conteiner-footerTwo{
-  margin:1%;
-  background-color: rgb(114, 219, 114);
-  height: 80px;
-  width: 80px;
-  border-radius: 60px;
+header{
+  background-color: blueviolet;
+  margin-top: auto;
+  height: 50px;
 }
